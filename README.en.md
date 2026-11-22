@@ -6,18 +6,18 @@ A Windows desktop assistant for office workers and independent creators. Capture
 
 **[简体中文](README.md) · English**
 
-[![Release v0.6.0](https://img.shields.io/badge/release-v0.6.0-626b78?style=flat)](https://github.com/IYNAIT0110/STArra/releases/tag/v0.6.0) ![Platform](https://img.shields.io/badge/platform-Windows_10%20%2F%2011_x64-626b78)
+[![Release v0.6.1](https://img.shields.io/badge/release-v0.6.1-626b78?style=flat)](https://github.com/IYNAIT0110/STArra/releases/tag/v0.6.1) ![Platform](https://img.shields.io/badge/platform-Windows_10%20%2F%2011_x64-626b78)
 ![Interface languages](https://img.shields.io/badge/UI-Chinese%20%7C%20English%20%7C%20Japanese-687e70)
 
 [Download](https://github.com/IYNAIT0110/STArra/releases/latest) · [Documentation](docs/README.md) · [Changelog](CHANGELOG.md) · [Report an issue](https://github.com/IYNAIT0110/STArra/issues)
 
 > This README provides an English overview and setup guide. Most linked detailed guides and release notes are currently in Simplified Chinese. The application interface supports Chinese, English, and Japanese.
 
-## New in v0.6.0
+## New in v0.6.1
 
-STArra is a Windows desktop assistant for office workers and independent creators. Capture conversations, follow up on tasks, and pick up where you left off on a project. This release adds meeting and quick recording, transcript review and task extraction, plus desktop capsules for reminders, recording, media and focus.
+Export diagnostic logs as a ZIP and use a wider set of app operations from Star Flow and external agents.
 
-[Release notes](docs/releases/v0.6.0.md)
+[Release notes](docs/releases/v0.6.1.md)
 
 ## What STArra is for
 
@@ -42,10 +42,10 @@ Requires **Windows 10 or 11, x64**. Choose your interface language in Settings.
 
 | Download | Purpose |
 | --- | --- |
-| [starra-0.6.0-setup.exe](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.0/starra-0.6.0-setup.exe) | Standard installer for regular use |
-| [starra-0.6.0-portable.exe](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.0/starra-0.6.0-portable.exe) | Launch without installing. Application data still resides in the current Windows user profile; it does not automatically travel with the executable |
-| [STArra-v0.6.0-docs.zip](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.0/STArra-v0.6.0-docs.zip) | Guides, workflows, examples, and third-party notices |
-| [SHA256SUMS.txt](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.0/SHA256SUMS.txt) | SHA-256 checksums for the release files |
+| [starra-0.6.1-setup.exe](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.1/starra-0.6.1-setup.exe) | Standard installer for regular use |
+| [starra-0.6.1-portable.exe](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.1/starra-0.6.1-portable.exe) | Launch without installing. Application data still resides in the current Windows user profile; it does not automatically travel with the executable |
+| [STArra-v0.6.1-docs.zip](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.1/STArra-v0.6.1-docs.zip) | Guides, workflows, examples, and third-party notices |
+| [SHA256SUMS.txt](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.1/SHA256SUMS.txt) | SHA-256 checksums for the release files |
 
 1. Run the installer from Downloads or your desktop. **Do not run it from inside the existing installation directory.** Create a Capsule backup before upgrading.
 2. Left-click the ball to open the toolbar. Create a project in the project workspace and select its directory.
@@ -155,7 +155,7 @@ v0.3.4 passed both TypeScript checks, 238 regression tests, and isolated-data in
 
 - [Documentation index — Chinese](docs/README.md)
 - [Project file board — Chinese](docs/织梦台文件看板.md) · [Appearance — Chinese](docs/外观配色与质感.md)
-- [Release notes — Chinese](docs/releases/v0.6.0.md) · [Changelog — Chinese](CHANGELOG.md)
+- [Release notes — Chinese](docs/releases/v0.6.1.md) · [Changelog — Chinese](CHANGELOG.md)
 - [Product story — Chinese](docs/STARRA-闪星品牌故事.md)
 
 For a bug report, open a [GitHub issue](https://github.com/IYNAIT0110/STArra/issues) with the application version, Windows version, reproduction steps, and a screenshot. For preview problems, include the file extension and relevant thumbnail-provider information. Do not attach credentials or private project originals.

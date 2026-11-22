@@ -6,16 +6,16 @@
 
 **简体中文 · [English](README.en.md)**
 
-[![Release v0.6.0](https://img.shields.io/badge/release-v0.6.0-626b78?style=flat)](https://github.com/IYNAIT0110/STArra/releases/tag/v0.6.0) ![Platform](https://img.shields.io/badge/platform-Windows_10%20%2F%2011_x64-626b78)
+[![Release v0.6.1](https://img.shields.io/badge/release-v0.6.1-626b78?style=flat)](https://github.com/IYNAIT0110/STArra/releases/tag/v0.6.1) ![Platform](https://img.shields.io/badge/platform-Windows_10%20%2F%2011_x64-626b78)
 ![Interface languages](https://img.shields.io/badge/UI-中文%20%7C%20English%20%7C%20日本語-687e70)
 
 [下载最新版](https://github.com/IYNAIT0110/STArra/releases/latest) · [使用指南](docs/使用指南.md) · [文档目录](docs/README.md) · [更新记录](CHANGELOG.md) · [问题反馈](https://github.com/IYNAIT0110/STArra/issues)
 
-## v0.6.0 新功能
+## v0.6.1 新功能
 
-STArra 是为办公人员和独立创作者设计的 Windows 桌面工作助手。本版加入会议与快速录音、回放转写和待办提取，以及提醒、媒体与专注灵动岛。
+新增诊断日志与 ZIP 导出，扩大星流和外部 Agent 的功能覆盖。
 
-[使用指南](docs/使用指南.md) · [发布说明](docs/releases/v0.6.0.md)
+[使用指南](docs/使用指南.md) · [发布说明](docs/releases/v0.6.1.md)
 
 ## 产品定位
 
@@ -34,10 +34,10 @@ STArra 是为办公人员和独立创作者设计的 Windows 桌面工作助手�
 
 | 下载文件 | 用途 |
 | --- | --- |
-| [starra-0.6.0-setup.exe](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.0/starra-0.6.0-setup.exe) | 常规安装，适合长期使用 |
-| [starra-0.6.0-portable.exe](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.0/starra-0.6.0-portable.exe) | 免安装启动；应用数据仍保存在当前 Windows 用户目录，不会自动随 exe 携带 |
-| [STArra-v0.6.0-docs.zip](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.0/STArra-v0.6.0-docs.zip) | 使用说明、工作流、示例和第三方许可 |
-| [SHA256SUMS.txt](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.0/SHA256SUMS.txt) | 下载文件的 SHA-256 校验值 |
+| [starra-0.6.1-setup.exe](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.1/starra-0.6.1-setup.exe) | 常规安装，适合长期使用 |
+| [starra-0.6.1-portable.exe](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.1/starra-0.6.1-portable.exe) | 免安装启动；应用数据仍保存在当前 Windows 用户目录，不会自动随 exe 携带 |
+| [STArra-v0.6.1-docs.zip](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.1/STArra-v0.6.1-docs.zip) | 使用说明、工作流、示例和第三方许可 |
+| [SHA256SUMS.txt](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.1/SHA256SUMS.txt) | 下载文件的 SHA-256 校验值 |
 
 1. 从下载目录或桌面运行安装包，**不要把安装包放在旧安装目录内运行**。升级前建议先创建胶囊备份。
 2. 左键点击小球，打开功能栏；进入「织梦台」创建项目并选择项目文件夹。
@@ -151,7 +151,7 @@ v0.3.4 已通过两套类型检查、238 项回归测试，以及隔离数据目
 
 - [使用指南与全部文档](docs/README.md)
 - [项目文件看板](docs/织梦台文件看板.md) · [外观设置](docs/外观配色与质感.md)
-- [版本发布说明](docs/releases/v0.6.0.md) · [更新记录](CHANGELOG.md)
+- [版本发布说明](docs/releases/v0.6.1.md) · [更新记录](CHANGELOG.md)
 - [品牌故事](docs/STARRA-闪星品牌故事.md)
 
 遇到问题可在 [GitHub Issues](https://github.com/IYNAIT0110/STArra/issues) 提供版本号、Windows 版本、复现步骤和截图；涉及素材格式时注明扩展名及相关预览条件，请勿附带密钥或私人项目原件。
