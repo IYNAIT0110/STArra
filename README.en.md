@@ -30,22 +30,16 @@ Meeting feedback, files, bookmarks, and notes often live in different places. ST
 
 STArra supports everyday office work, personal projects, and independent creative work. Architecture and design projects can also use model previews, version snapshots, and file relationship graphs.
 
-## New in v0.3.4
-
-Drag the collapsed ball to the top edge and release to morph it continuously into Star Island. Its robot eyes blink and reflect app states. Right-click the island for three horizontally aligned mini tools. Right-click Star Note for individual pill-shaped task bubbles; click the island to dismiss them. Time editing now uses in-app hour/minute menus, with recovery when the task window fails. Use the toolbar search button or Ctrl+K for global search. Docking is currently per session.
-
-[Star Island guide (Chinese)](docs/星岛顶部停泊.md) · [Release notes](docs/releases/v0.3.4.md)
-
 ## Installation and first steps
 
 Requires **Windows 10 or 11, x64**. Choose your interface language in Settings.
 
 | Download | Purpose |
 | --- | --- |
-| [starra-0.6.1-setup.exe](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.1/starra-0.6.1-setup.exe) | Standard installer for regular use |
-| [starra-0.6.1-portable.exe](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.1/starra-0.6.1-portable.exe) | Launch without installing. Application data still resides in the current Windows user profile; it does not automatically travel with the executable |
-| [STArra-v0.6.1-docs.zip](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.1/STArra-v0.6.1-docs.zip) | Guides, workflows, examples, and third-party notices |
-| [SHA256SUMS.txt](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.1/SHA256SUMS.txt) | SHA-256 checksums for the release files |
+| [starra-0.6.3-setup.exe](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.3/starra-0.6.3-setup.exe) | Standard installer for regular use |
+| [starra-0.6.3-portable.exe](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.3/starra-0.6.3-portable.exe) | Launch without installing. Application data still resides in the current Windows user profile; it does not automatically travel with the executable |
+| [STArra-v0.6.3-docs.zip](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.3/STArra-v0.6.3-docs.zip) | Guides, workflows, examples, and third-party notices |
+| [SHA256SUMS.txt](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.3/SHA256SUMS.txt) | SHA-256 checksums for the release files |
 
 1. Run the installer from Downloads or your desktop. **Do not run it from inside the existing installation directory.** Create a Capsule backup before upgrading.
 2. Left-click the ball to open the toolbar. Create a project in the project workspace and select its directory.
@@ -60,23 +54,25 @@ The Chinese names below help identify the corresponding modules in screenshots a
 
 | Module | Capabilities |
 | --- | --- |
-| **Star Sand · Notes (星砂)** | Plain text, checklists, Markdown editing and export, focused writing, and optional AI organization; includes 16 guide notes and 3 demonstrations |
+| **Star Sand · Notes (星砂)** | Plain text, checklists, Markdown editing and export, focused writing, and optional AI organization, with built-in guides and examples |
 | **Project workspace (织梦台)** | Project file board, time view, relationship graph, manually confirmed version groups, real content snapshots, project checkpoints, and linked resources |
 | **Scroll · Prompts (卷轴)** | Parent/child prompts, preview images, tags, copying, card switching, and optional AI expansion or translation; agents can save images, prompts, and generation parameters |
 | **Treasure Box · Assets (百宝匣)** | Folder and clipboard imports, references to original files, tags, thumbnails and lightweight previews for supported formats, side-by-side reference, and dragging originals out |
-| **Portal · Bookmarks (传送门)** | Save, group, and search reference websites; includes 64 public links |
-| **Codex · Shortcuts (秘籍)** | Offline shortcut references for SketchUp, Rhino, and AutoCAD |
+| **Portal · Bookmarks (传送门)** | Save, group, and search reference websites, with built-in reference sites |
 | **Capsule · Backup (胶囊)** | Package application records and original files, select project/date scopes, verify integrity, restore on another computer, and rebuild included paths |
+| **Star Note · Task calendar (星笺)** | Weekly calendar, Windows reminders, drag to reschedule or resize tasks, and Star Pin for quick access |
+| **Star Flow · AI assistant (星流)** | Search workspace content, organize tasks, generate files, and find references |
+| **Star Trace · MCP activity (星迹)** | Review external agents, tool calls, approvals, and outputs. Replay or bulk-delete flow history |
 
-The right-click mini toolbar includes **Star Notes (星笺)**, a task-based timeline synchronized with linked checklists and extracted tasks in Star Sand. **星轨 and 星镜 remain planned tools.** Middle-click opens the **Star Flow assistant (星流)**.
+Right-click the ball to open mini tools and middle-click to open Star Flow. Star Note and Star Trace are available from the main toolbar.
 
 ## Desktop interaction and appearance
 
-Drag the orb to switch between the floating toolbar and edge sidebar. The toolbar, mini tools, and assistant have separate entry points. Choose graphite or white with the default matte material.
+Drag the orb to switch between the floating toolbar and edge sidebar. The toolbar, mini tools, and assistant have separate entry points. Choose graphite or white, adjust the frosted background blur, or switch how feature names are displayed.
 
-MCP feedback can use a twin-star orbit or a flowing halo, with adjustable halo size and thickness. Speech bubbles follow the ball as it moves. Relevant feedback becomes static when the system requests reduced motion.
+The sidebar footer shows MCP connection status and agent names. Open Star Trace from this entry or use it to review a pending approval.
 
-## v0.3.4: project files, versions, and provenance
+## Project files, versions, and provenance
 
 ### Three views of your work
 
@@ -92,7 +88,7 @@ Saving a snapshot or a named project checkpoint copies real file content and rec
 
 The default snapshot budget is 5 GB, configurable from 1–100 GB. Individual files are limited to 2 GB, with up to 60 files per snapshot operation. Scans support up to 12,000 entries per project; a graph displays up to 180 files at once. Search and filter to narrow larger projects.
 
-[File board guide — Chinese](docs/织梦台文件看板.md) · [v0.3.4 release notes — Chinese](docs/releases/v0.3.4.md)
+[File board guide — Chinese](docs/织梦台文件看板.md)
 
 ## An end-to-end design workflow
 
@@ -137,25 +133,15 @@ Local features do not require an account. Application records retain the compati
 
 **A Capsule is a personal backup and migration package, not a sanitized client-delivery package.** Project/date filters apply to original files; complete application records and library-owned files may still include other projects and model credentials. Review a package before sharing it. Older JSON/index exports do not contain every original file. External-agent authorizations and connection settings need to be configured again after migration.
 
-First-run content consists of public websites, original prompt examples and illustrations, offline shortcuts, guides, and demonstrations. It does not include the developer's private projects, assets, or credentials. Updated guide notes do not forcibly replace copies users have edited.
+First-run content consists of public websites, original prompt examples and illustrations, guides, and demonstrations. It does not include the developer's private projects, assets, or credentials. Updated guide notes do not forcibly replace copies users have edited.
 
 [Data and migration — Chinese](docs/数据与迁移.md) · [Detailed backup scope — Chinese](docs/备份与迁移.md)
-
-## Current scope and roadmap
-
-| Available | Requires explicit user action | Not implemented |
-| --- | --- | --- |
-| File board, version groups, relationship graph, and content snapshots | Confirm scans, refresh directories, verify relationships, and save snapshots | Automatic professional dependency parsing, scheduled snapshots, and geometric difference analysis |
-| Notes, task timeline, optional AI, and local MCP | Configure model providers, authorize folders, and approve changes | Cloud collaboration and general computer control |
-| Star Notes task entry point | Associate and review task content | Full functionality planned for 星轨 and 星镜 |
-
-v0.3.4 passed both TypeScript checks, 238 regression tests, and isolated-data interface and package validation. Preview availability and visual effects still depend on file structure, Windows thumbnail providers, and graphics hardware. Files without previews can be opened in their original applications.
 
 ## Documentation and support
 
 - [Documentation index — Chinese](docs/README.md)
 - [Project file board — Chinese](docs/织梦台文件看板.md) · [Appearance — Chinese](docs/外观配色与质感.md)
-- [Release notes — Chinese](docs/releases/v0.6.1.md) · [Changelog — Chinese](CHANGELOG.md)
+- [Release notes — Chinese](docs/releases/v0.6.3.md) · [Changelog — Chinese](CHANGELOG.md)
 - [Product story — Chinese](docs/STARRA-闪星品牌故事.md)
 
 For a bug report, open a [GitHub issue](https://github.com/IYNAIT0110/STArra/issues) with the application version, Windows version, reproduction steps, and a screenshot. For preview problems, include the file extension and relevant thumbnail-provider information. Do not attach credentials or private project originals.
