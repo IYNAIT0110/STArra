@@ -9,6 +9,7 @@
 | [v0.3.7](https://github.com/IYNAIT0110/STArra/releases/tag/v0.3.7) | 2026-11-21 | `c3720d5` |
 | [v0.6.0](https://github.com/IYNAIT0110/STArra/releases/tag/v0.6.0) | 2026-11-22 | `c3720d5` |
 | [v0.6.1](https://github.com/IYNAIT0110/STArra/releases/tag/v0.6.1) | 2026-11-22 | `66283d8` |
+| [v0.6.3](https://github.com/IYNAIT0110/STArra/releases/tag/v0.6.3) | 2026-11-25 | `7682deb` |
 
 公开仓库的 `v0.3.0` 至 `v0.3.7` 和 `v0.6.0` 都指向同一个归档提交。仅凭当前标签无法确定它们是什么时候创建或移动的，也无法复原各版构建所用的源码。核对公开发布时，以 GitHub Release 的 `published_at` 为准。变更记录中的日期是项目文档记载的日期，下载到的文件可对照相应 Release 的校验值。
 
