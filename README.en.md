@@ -6,18 +6,18 @@ A Windows desktop assistant for office workers and independent creators. Capture
 
 **[简体中文](README.md) · English**
 
-[![Release v0.6.1](https://img.shields.io/badge/release-v0.6.1-626b78?style=flat)](https://github.com/IYNAIT0110/STArra/releases/tag/v0.6.1) ![Platform](https://img.shields.io/badge/platform-Windows_10%20%2F%2011_x64-626b78)
+[![Version v0.6.3](https://img.shields.io/badge/version-v0.6.3-626b78?style=flat)](docs/releases/v0.6.3.md) ![Platform](https://img.shields.io/badge/platform-Windows_10%20%2F%2011_x64-626b78)
 ![Interface languages](https://img.shields.io/badge/UI-Chinese%20%7C%20English%20%7C%20Japanese-687e70)
 
 [Download](https://github.com/IYNAIT0110/STArra/releases/latest) · [Documentation](docs/README.md) · [Changelog](CHANGELOG.md) · [Report an issue](https://github.com/IYNAIT0110/STArra/issues)
 
 > This README provides an English overview and setup guide. Most linked detailed guides and release notes are currently in Simplified Chinese. The application interface supports Chinese, English, and Japanese.
 
-## New in v0.6.1
+## New in v0.6.3
 
-Export diagnostic logs as a ZIP and use a wider set of app operations from Star Flow and external agents.
+Use Star Trace to review external agents' MCP calls, approvals, and outputs. Check connection status from the sidebar and delete multiple flows at once.
 
-[Release notes](docs/releases/v0.6.1.md)
+[Release notes](docs/releases/v0.6.3.md)
 
 ## What STArra is for
 

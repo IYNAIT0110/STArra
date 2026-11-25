@@ -6,16 +6,16 @@
 
 **简体中文 · [English](README.en.md)**
 
-[![Release v0.6.1](https://img.shields.io/badge/release-v0.6.1-626b78?style=flat)](https://github.com/IYNAIT0110/STArra/releases/tag/v0.6.1) ![Platform](https://img.shields.io/badge/platform-Windows_10%20%2F%2011_x64-626b78)
+[![Version v0.6.3](https://img.shields.io/badge/version-v0.6.3-626b78?style=flat)](docs/releases/v0.6.3.md) ![Platform](https://img.shields.io/badge/platform-Windows_10%20%2F%2011_x64-626b78)
 ![Interface languages](https://img.shields.io/badge/UI-中文%20%7C%20English%20%7C%20日本語-687e70)
 
 [下载最新版](https://github.com/IYNAIT0110/STArra/releases/latest) · [使用指南](docs/使用指南.md) · [文档目录](docs/README.md) · [更新记录](CHANGELOG.md) · [问题反馈](https://github.com/IYNAIT0110/STArra/issues)
 
-## v0.6.1 新功能
+## v0.6.3 新功能
 
-新增诊断日志与 ZIP 导出，扩大星流和外部 Agent 的功能覆盖。
+新增星迹，回看外部 Agent 的 MCP 调用、审批和产物。侧栏可查看连接状态，历史流程支持批量删除。
 
-[使用指南](docs/使用指南.md) · [发布说明](docs/releases/v0.6.1.md)
+[使用指南](docs/使用指南.md) · [发布说明](docs/releases/v0.6.3.md)
 
 ## 产品定位
 
