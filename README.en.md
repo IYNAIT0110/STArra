@@ -6,18 +6,18 @@ A Windows desktop assistant for office workers and independent creators. Capture
 
 **[简体中文](README.md) · English**
 
-[![Version v0.6.3](https://img.shields.io/badge/version-v0.6.3-626b78?style=flat)](docs/releases/v0.6.3.md) ![Platform](https://img.shields.io/badge/platform-Windows_10%20%2F%2011_x64-626b78)
+[![Version v0.6.7](https://img.shields.io/badge/version-v0.6.7-626b78?style=flat)](docs/releases/v0.6.7.md) ![Platform](https://img.shields.io/badge/platform-Windows_10%20%2F%2011_x64-626b78)
 ![Interface languages](https://img.shields.io/badge/UI-Chinese%20%7C%20English%20%7C%20Japanese-687e70)
 
 [Download](https://github.com/IYNAIT0110/STArra/releases/latest) · [Documentation](docs/README.md) · [Changelog](CHANGELOG.md) · [Report an issue](https://github.com/IYNAIT0110/STArra/issues)
 
 > This README provides an English overview and setup guide. Most linked detailed guides and release notes are currently in Simplified Chinese. The application interface supports Chinese, English, and Japanese.
 
-## New in v0.6.3
+## New in v0.6.7
 
-Use Star Trace to review external agents' MCP calls, approvals, and outputs. Check connection status from the sidebar and delete multiple flows at once.
+Eight themes are available, with a desktop blur toggle for frosted themes. Docked navigation and its workspace slide away together and reopen to the previous page. Portal fits more websites as space allows, and Star Sand includes a guide to the update.
 
-[Release notes](docs/releases/v0.6.3.md)
+[Release notes](docs/releases/v0.6.7.md)
 
 ## What STArra is for
 
@@ -36,10 +36,10 @@ Requires **Windows 10 or 11, x64**. Choose your interface language in Settings.
 
 | Download | Purpose |
 | --- | --- |
-| [starra-0.6.3-setup.exe](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.3/starra-0.6.3-setup.exe) | Standard installer for regular use |
-| [starra-0.6.3-portable.exe](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.3/starra-0.6.3-portable.exe) | Launch without installing. Application data still resides in the current Windows user profile; it does not automatically travel with the executable |
-| [STArra-v0.6.3-docs.zip](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.3/STArra-v0.6.3-docs.zip) | Guides, workflows, examples, and third-party notices |
-| [SHA256SUMS.txt](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.3/SHA256SUMS.txt) | SHA-256 checksums for the release files |
+| [Windows installer](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.7/starra-0.6.7-setup.exe) | Standard installer for regular use |
+| [Windows portable build](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.7/starra-0.6.7-portable.exe) | Launch without installing. Application data still resides in the current Windows user profile; it does not automatically travel with the executable |
+| [Online user guide](docs/使用指南.md) | Feature guides and workflows |
+| [SHA256SUMS.txt](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.7/SHA256SUMS.txt) | SHA-256 checksums for the release files |
 
 1. Run the installer from Downloads or your desktop. **Do not run it from inside the existing installation directory.** Create a Capsule backup before upgrading.
 2. Left-click the ball to open the toolbar. Create a project in the project workspace and select its directory.
@@ -68,7 +68,7 @@ Right-click the ball to open mini tools and middle-click to open Star Flow. Star
 
 ## Desktop interaction and appearance
 
-Drag the orb to switch between the floating toolbar and edge sidebar. The toolbar, mini tools, and assistant have separate entry points. Choose graphite or white, adjust the frosted background blur, or switch how feature names are displayed.
+Drag the orb to switch between the floating toolbar and the edge sidebar. Hover over the edge handle to restore the sidebar and its last open panel. Appearance settings offer eight themes and a background blur toggle for frosted themes.
 
 The sidebar footer shows MCP connection status and agent names. Open Star Trace from this entry or use it to review a pending approval.
 
@@ -141,7 +141,7 @@ First-run content consists of public websites, original prompt examples and illu
 
 - [Documentation index — Chinese](docs/README.md)
 - [Project file board — Chinese](docs/织梦台文件看板.md) · [Appearance — Chinese](docs/外观配色与质感.md)
-- [Release notes — Chinese](docs/releases/v0.6.3.md) · [Changelog — Chinese](CHANGELOG.md)
+- [Release notes](docs/releases/v0.6.7.md) · [Changelog — Chinese](CHANGELOG.md)
 - [Product story — Chinese](docs/STARRA-闪星品牌故事.md)
 
 For a bug report, open a [GitHub issue](https://github.com/IYNAIT0110/STArra/issues) with the application version, Windows version, reproduction steps, and a screenshot. For preview problems, include the file extension and relevant thumbnail-provider information. Do not attach credentials or private project originals.

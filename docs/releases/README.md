@@ -2,6 +2,8 @@
 
 通过 [GitHub Releases](https://github.com/IYNAIT0110/STArra/releases) 查看公开发布时间、安装包、便携版和 SHA-256 校验文件。[CHANGELOG](../../CHANGELOG.md) 记录版本变化，版本说明位于本目录。
 
+当前版本：[v0.6.7 发布说明](v0.6.7.md) · [GitHub Release](https://github.com/IYNAIT0110/STArra/releases/tag/v0.6.7)。
+
 ## 历史核对
 
 | 版本 | GitHub Release 页面显示的发布日期 | 公开标签目标 |

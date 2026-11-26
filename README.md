@@ -6,16 +6,16 @@
 
 **简体中文 · [English](README.en.md)**
 
-[![Version v0.6.3](https://img.shields.io/badge/version-v0.6.3-626b78?style=flat)](docs/releases/v0.6.3.md) ![Platform](https://img.shields.io/badge/platform-Windows_10%20%2F%2011_x64-626b78)
+[![Version v0.6.7](https://img.shields.io/badge/version-v0.6.7-626b78?style=flat)](docs/releases/v0.6.7.md) ![Platform](https://img.shields.io/badge/platform-Windows_10%20%2F%2011_x64-626b78)
 ![Interface languages](https://img.shields.io/badge/UI-中文%20%7C%20English%20%7C%20日本語-687e70)
 
 [下载最新版](https://github.com/IYNAIT0110/STArra/releases/latest) · [使用指南](docs/使用指南.md) · [文档目录](docs/README.md) · [更新记录](CHANGELOG.md) · [问题反馈](https://github.com/IYNAIT0110/STArra/issues)
 
-## v0.6.3 新功能
+## v0.6.7 新功能
 
-新增星迹，回看外部 Agent 的 MCP 调用、审批和产物。侧栏可查看连接状态，历史流程支持批量删除。
+新版提供八个主题和桌面背景模糊开关。侧栏贴边时，功能面板随之滑动收起，悬停可恢复上次页面。传送门能按可用面积展示更多网站，星砂内置了这一版的功能介绍。
 
-[使用指南](docs/使用指南.md) · [发布说明](docs/releases/v0.6.3.md)
+[使用指南](docs/使用指南.md) · [发布说明](docs/releases/v0.6.7.md)
 
 ## 产品定位
 
@@ -34,10 +34,10 @@
 
 | 下载文件 | 用途 |
 | --- | --- |
-| [starra-0.6.3-setup.exe](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.3/starra-0.6.3-setup.exe) | 常规安装，适合长期使用 |
-| [starra-0.6.3-portable.exe](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.3/starra-0.6.3-portable.exe) | 免安装启动；应用数据仍保存在当前 Windows 用户目录，不会自动随 exe 携带 |
-| [STArra-v0.6.3-docs.zip](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.3/STArra-v0.6.3-docs.zip) | 使用说明、工作流、示例和第三方许可 |
-| [SHA256SUMS.txt](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.3/SHA256SUMS.txt) | 下载文件的 SHA-256 校验值 |
+| [Windows 安装版](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.7/starra-0.6.7-setup.exe) | 常规安装，适合长期使用 |
+| [Windows 便携版](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.7/starra-0.6.7-portable.exe) | 免安装启动；应用数据仍保存在当前 Windows 用户目录，不会自动随 exe 携带 |
+| [在线使用指南](docs/使用指南.md) | 功能说明和工作流程 |
+| [SHA256SUMS.txt](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.7/SHA256SUMS.txt) | 下载文件的 SHA-256 校验值 |
 
 1. 从下载目录或桌面运行安装包，**不要把安装包放在旧安装目录内运行**。升级前建议先创建胶囊备份。
 2. 左键点击小球，打开功能栏；进入「织梦台」创建项目并选择项目文件夹。
@@ -64,7 +64,7 @@
 
 ## 桌面交互与外观
 
-拖动小球可在浮动工具栏和贴边侧栏之间切换。小球的主功能、mini 栏与对话有独立入口。外观提供石墨和云白主题，支持调节磨砂背景模糊程度，并可切换功能名称的呈现方式。
+拖动小球可切换浮动工具栏和贴边侧栏。侧栏贴边时，右侧面板随之收起，悬停边缘手柄可恢复。设置提供八套主题，磨砂主题可开启或关闭背景模糊。
 
 侧栏底部显示 MCP 连接状态和 Agent 名称。点击进入星迹，有待确认请求时可打开确认窗口。
 
@@ -111,7 +111,7 @@
 - 只读查询可直接执行；新建、修改、删除及有副作用的操作需要本次确认，批量清单可合并为一次确认。
 - 文件访问限于用户明确授权的目录。模型规划不等于获得任意终端执行或通用电脑控制能力。
 - Agent 可登记生成文件的真实路径并关联项目，也可保存卷轴的图片、提示词与参数，方便回到应用核对成果。
-- 小球光环与跟随气泡显示连接、执行、确认及结果；外观设置中可选择光环样式、大小和粗细。
+- 从侧栏的 MCP 状态入口查看连接和对应的 Agent。
 
 [星流使用说明](docs/使用文档/15-小球助手.md) · [MCP 配置、权限与操作目录](docs/使用文档/16-外部Agent.md)
 
@@ -137,7 +137,7 @@
 
 - [使用指南与全部文档](docs/README.md)
 - [项目文件看板](docs/织梦台文件看板.md) · [外观设置](docs/外观配色与质感.md)
-- [版本发布说明](docs/releases/v0.6.3.md) · [更新记录](CHANGELOG.md)
+- [版本发布说明](docs/releases/v0.6.7.md) · [更新记录](CHANGELOG.md)
 - [品牌故事](docs/STARRA-闪星品牌故事.md)
 
 遇到问题可在 [GitHub Issues](https://github.com/IYNAIT0110/STArra/issues) 提供版本号、Windows 版本、复现步骤和截图；涉及素材格式时注明扩展名及相关预览条件，请勿附带密钥或私人项目原件。
