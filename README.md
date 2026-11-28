@@ -6,16 +6,16 @@
 
 **简体中文 · [English](README.en.md)**
 
-[![Version v0.6.7](https://img.shields.io/badge/version-v0.6.7-626b78?style=flat)](docs/releases/v0.6.7.md) ![Platform](https://img.shields.io/badge/platform-Windows_10%20%2F%2011_x64-626b78)
+[![Version v0.6.8](https://img.shields.io/badge/version-v0.6.8-626b78?style=flat)](docs/releases/v0.6.8.md) ![Platform](https://img.shields.io/badge/platform-Windows_10%20%2F%2011_x64-626b78)
 ![Interface languages](https://img.shields.io/badge/UI-中文%20%7C%20English%20%7C%20日本語-687e70)
 
 [下载最新版](https://github.com/IYNAIT0110/STArra/releases/latest) · [使用指南](docs/使用指南.md) · [文档目录](docs/README.md) · [更新记录](CHANGELOG.md) · [问题反馈](https://github.com/IYNAIT0110/STArra/issues)
 
-## v0.6.7 新功能
+## v0.6.8 新功能
 
-新版提供八个主题和桌面背景模糊开关。侧栏贴边时，功能面板随之滑动收起，悬停可恢复上次页面。传送门能按可用面积展示更多网站，星砂内置了这一版的功能介绍。
+新增贴点便签、录音截图时间点、双击快捷键和首次使用引导。安装版提供可选的清洁安装，默认保留原有资料。
 
-[使用指南](docs/使用指南.md) · [发布说明](docs/releases/v0.6.7.md)
+[使用指南](docs/使用指南.md) · [发布说明](docs/releases/v0.6.8.md)
 
 ## 产品定位
 
@@ -34,12 +34,12 @@
 
 | 下载文件 | 用途 |
 | --- | --- |
-| [Windows 安装版](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.7/starra-0.6.7-setup.exe) | 常规安装，适合长期使用 |
-| [Windows 便携版](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.7/starra-0.6.7-portable.exe) | 免安装启动；应用数据仍保存在当前 Windows 用户目录，不会自动随 exe 携带 |
+| [Windows 安装版](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.8/starra-0.6.8-setup.exe) | 常规安装，适合长期使用 |
+| [Windows 便携版](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.8/starra-0.6.8-portable.exe) | 免安装启动；应用数据仍保存在当前 Windows 用户目录，不会自动随 exe 携带 |
 | [在线使用指南](docs/使用指南.md) | 功能说明和工作流程 |
-| [SHA256SUMS.txt](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.7/SHA256SUMS.txt) | 下载文件的 SHA-256 校验值 |
+| [SHA256SUMS.txt](https://github.com/IYNAIT0110/STArra/releases/download/v0.6.8/SHA256SUMS.txt) | 下载文件的 SHA-256 校验值 |
 
-1. 从下载目录或桌面运行安装包，**不要把安装包放在旧安装目录内运行**。升级前建议先创建胶囊备份。
+1. 从下载目录或桌面运行安装包，**不要把安装包放在旧安装目录内运行**。常规安装保留资料；选择清洁安装会永久删除本地 Starra 数据。建议先把胶囊备份导出到数据目录之外。
 2. 左键点击小球，打开功能栏；进入「织梦台」创建项目并选择项目文件夹。
 3. 在「文件看板」确认扫描范围，或先用「星砂」记录想法、「传送门」收藏参考网站。
 4. 需要 AI 时再配置可信的模型接口；需要外部 Agent 时再开启 MCP 并授权目录。两者均为可选功能。
@@ -137,7 +137,7 @@
 
 - [使用指南与全部文档](docs/README.md)
 - [项目文件看板](docs/织梦台文件看板.md) · [外观设置](docs/外观配色与质感.md)
-- [版本发布说明](docs/releases/v0.6.7.md) · [更新记录](CHANGELOG.md)
+- [版本发布说明](docs/releases/v0.6.8.md) · [更新记录](CHANGELOG.md)
 - [品牌故事](docs/STARRA-闪星品牌故事.md)
 
 遇到问题可在 [GitHub Issues](https://github.com/IYNAIT0110/STArra/issues) 提供版本号、Windows 版本、复现步骤和截图；涉及素材格式时注明扩展名及相关预览条件，请勿附带密钥或私人项目原件。
